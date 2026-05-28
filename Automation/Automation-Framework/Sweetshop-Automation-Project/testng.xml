@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/carla/JavaLearning/SweetShopTest">
+        <classes>
+            <class name="com.sweetshop.tests.account.AccountTest">
+                <methods>
+                    <include name="testAccountHeaderIsDisplayed"/>
+                    <include name="testIsNumberOfOrdersDisplayed"/>
+                    <include name="testNumberOfOrdersDisplayedNegative"/>
+                    <include name="testPastTransactionsDisplayed"/>
+                </methods>
+            </class>
+            <class name="com.sweetshop.tests.basket.BasketTest">
+                <methods>
+                    <include name="isBasketHeaderDisplayedTest"/>
+                    <include name="doesBasketDisplayCorrectItemsTest"/>
+                    <include name="testErrorMessagesCustomerInfo"/>
+                    <include name="testErrorMessagesCreditCard"/>
+                    <include name="verifyCheckoutProcess"/>
+                </methods>
+            </class>
+            <class name="com.sweetshop.tests.home.HomeTest">
+                <methods>
+                    <include name="testGoToProducts"/>
+                    <include name="testGoToLogin"/>
+                    <include name="testHomePageHeader"/>
+                </methods>
+            </class>
+            <class name="com.sweetshop.tests.login.LoginTest">
+                <methods>
+                    <include name="testEmailErrorMessage"/>
+                    <include name="testPasswordErrorMessage"/>
+                </methods>
+            </class>
+            <class name="com.sweetshop.tests.products.ProductsTest">
+                <methods>
+                    <include name="testViewProducts"/>
+                    <include name="testAddItemsToBasketNegative"/>
+                    <include name="testAddItemsToBasketPositive"/>
+                    <include name="testBasketLink"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

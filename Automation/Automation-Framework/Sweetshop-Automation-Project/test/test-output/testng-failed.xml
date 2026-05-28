@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/carla/JavaLearning/SweetShopTest(failed)">
+    <classes>
+      <class name="com.sweetshop.tests.account.AccountTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testNumberOfOrdersDisplayedNegative"/>
+        </methods>
+      </class> <!-- com.sweetshop.tests.account.AccountTest -->
+      <class name="com.sweetshop.tests.products.ProductsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testAddItemsToBasketNegative"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sweetshop.tests.products.ProductsTest -->
+    </classes>
+  </test> <!-- C:/Users/carla/JavaLearning/SweetShopTest(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
