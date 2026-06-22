@@ -28,12 +28,17 @@ Skilled in test planning, test case design, defect reporting, UI automation usin
 - Performed functional and regression testing
 - Documented defects and test results
 
-### Selenium Automation Project – Sweetshop.co
+### Java Selenium Automation Project – Sweetshop.co
 
 - Built automation framework using Java and Selenium
 - Automated core user workflows
 - Executed automated UI tests using TestNG
 - Generated test execution reports
+
+### Python Selenium Automation Project - Sweetshop.co
+
+- Port of an existing test from my Java Selenium/TestNG framework
+- Will be fleshed out more in the coming weeks, including a shift to POM
 
 ### API Testing Project – Swagger Petstore
 
@@ -56,5 +61,5 @@ Skilled in test planning, test case design, defect reporting, UI automation usin
 
 ## Contact
 
-LinkedIn: [www.linkedin.com/in/carla-cipolloni-302239330](http://www.linkedin.com/in/carla-cipolloni-302239330)
+LinkedIn: [www.linkedin.com/in/carla-cipolloni](http://www.linkedin.com/in/carla-cipolloni)
 Email: carla.cipolloni@gmail.com
